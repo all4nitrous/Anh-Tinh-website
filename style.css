@@ -396,7 +396,11 @@ header {
 }
 
 
+/*========================GALLERY============================*/
 
+.swiper-pagination-bullet-active {
+        background-color: var(--color-primary) !important;
+    }
 
 
 
