@@ -33,6 +33,7 @@ body {
     background: var(--color-bg-3);
     color: var(--color-light);
     line-height: 1.7;
+    background-image: url('dimension.png');
 }
 
 h1, h2 {
@@ -315,6 +316,7 @@ header {
     grid-template-columns: 10rem 26rem  auto;
     gap: 3rem;
     position: relative;
+   
 }
 
 .about_title {
@@ -400,7 +402,15 @@ header {
 
 .swiper-pagination-bullet-active {
         background-color: var(--color-primary) !important;
+
     }
+
+    .swiper-pagination-bullet {
+        opacity: 1;
+        border: white solid 1px;
+        background-color: transparent;}
+
+
 
 #gallery {
     margin-top: 12rem;
