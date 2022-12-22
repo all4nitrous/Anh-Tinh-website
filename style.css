@@ -701,7 +701,7 @@ h2 {
 
 #nav_toggle-close {
     display: none;
-    display: grid;
+    
     place-items: center;
 }
 
