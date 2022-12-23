@@ -892,11 +892,19 @@ header {
     margin-top: 1rem;
 }
 
+header p {
+    margin: 0 auto;
+}
+
 /*===============about (small)===============*/
 
 .about_container {
     grid-template-columns: 1fr;
     gap: 2rem;
+}
+
+.about_title {
+    line-height: 2rem;
 }
 
 .about_right p {
