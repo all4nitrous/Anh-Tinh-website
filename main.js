@@ -65,7 +65,7 @@ nav.querySelectorAll('li a').forEach(navLink => {
 
 
 
-	if(document.body.clientWidth < 1024) {
+	if(document.body.clientWidth < 1340) {
 	  nav.querySelectorAll('li a').forEach(navLink => {
 	    navLink.addEventListener('click', () => closeNav);
 	  })
