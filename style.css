@@ -597,7 +597,7 @@ footer a {
 }
 
 .footer_logo {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 500;
     margin-bottom: 2rem;
     display: inline-block;
@@ -617,6 +617,7 @@ footer a {
     justify-content: center;
     gap: 1rem;
     margin-bottom: 4rem;
+    font-size: 2rem;
 }
 
 .footer_socials a {
