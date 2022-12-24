@@ -29,7 +29,7 @@ font-family: sans-serif;
 body {
 background: var(--color-bg-4);
 background-image: url('./washi.png');
-overflow-y: hidden;
+
 
 }
 ::-webkit-scrollbar {
