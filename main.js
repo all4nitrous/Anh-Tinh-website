@@ -16,20 +16,24 @@ textButtons.forEach(textButton => {
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
     spaceBetween: 20,
+    bulletClass: `swiper-pagination-bullet swiper-pagination-testClass`,
     pagination: {
       el: ".swiper-pagination",
-      clickable: true, bulletClass: `swiper-pagination-bullet swiper-pagination-testClass`, breakpoints: { 599: {
+      clickable: true, 
+    }, 
+    breakpoints: { 599: {
         slidesPerView: 2,
         spaceBetween: 40
       }, 
       1023: {
         slidesPerView: 3,
         spaceBetween: 60,
+        
       }
 
       }
     },
-  });
+  );
 
 const nav = document.querySelector('.nav_links');
 const openNavBtn = document.querySelector('#nav_toggle-open');
