@@ -906,6 +906,23 @@ header {
         color: var(--color-white);
     }
 
+    P, h2 {
+        text-align: center;
+    }
+
+.font-change-3 {
+    text-align: center;
+}
+
+h2 {
+    margin: 0 auto;
+}
+
+.about_container p, h2 {
+    margin: 0 auto;
+    text-align: center;
+}
+
 
 header {
     padding: 0;
