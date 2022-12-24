@@ -911,6 +911,10 @@ header {
     padding-bottom: 6rem;
 }
 
+header h2 {
+    line-height: 2rem;
+}
+
 .header_container {
     grid-template-columns: 1fr;
     gap: 1rem;
