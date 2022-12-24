@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link href="contact.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"></head>
+<body>
+
+    <nav>
+        <div class="container nav_container">
+            <a href="index.html" class="nav_logo"><img src="./Agreed logo.png"></a>
+            <ul class="nav_links">
+                <li><a href="./index.html">Trang Chủ</a></li>
+                <li><a href="./index.html#about">Giới Thiệu</a></li>
+                <li><a href="./index.html#gallery">Mẫu Hình Xăm</a></li>
+                <li><a href="./index.html#exhibitions">Thư Viện Hình Ảnh
+                </a></li>
+                <li><a href="contact.html" target="_blank">Liên Hệ</a></li>
+            </ul>
+            <ul class="nav_socials">
+                <li><a href="https://www.instagram.com/tinh.art/?igshid=YmMyMTA2M2Y%3D&fbclid=IwAR0IPGCzkeWzSZaUU8yG46NrHZvAYtdMini538YKj7V7J5mIlYMAKt19Rl8" target="_blank"><i class="uil uil-instagram-alt"></i></a></li>
+                <li><a href="https://www.facebook.com/tinhart1996" target="_blank"><i class="uil uil-facebook"></i></a></li>
+
+            </ul>
+            <button class="nav_toggle-btn" id="nav_toggle-open"><i class="uil uil-bars"></i></button>
+            <button class="nav_toggle-btn" id="nav_toggle-close"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+    <!--END OF NAV-->
+    <div class="contactus">
+<div class="title">
+<h2>LIÊN HỆ</h2>
+
+</div>
+<div class="box">
+   <!--Form-->
+    <div class="contact form">
+        <header>
+                    <div class="header_image-lg">
+                        <img src="./table.jpg">
+                    </div>
+        </header>
+  
+   </div> 
+   <!--info box-->
+<div class="contact info">
+<h3>Contact Info</h3>
+<div class="infobox">
+    <div>
+        <span><ion-icon name="pin"></ion-icon></span>
+        <p> Ấp Tân Triều<br>Tân Bình, Vĩnh Cửu, Đồng Nai<br>Việt Nam</p>
+    </div> 
+    <div>
+        <span><ion-icon name="call"></ion-icon></span>
+        <a href="tel:+0906611660">+8490 6611 660</a>
+    </div>
+    
+    <!--social media links-->
+    <ul class="sci">
+        <li><a href="tel:+0906611660"><ion-icon name="phone-portrait"></ion-icon></a></li>
+        <li><a href=a href="https://www.instagram.com/tinh.art/?igshid=YmMyMTA2M2Y%3D&fbclid=IwAR0IPGCzkeWzSZaUU8yG46NrHZvAYtdMini538YKj7V7J5mIlYMAKt19Rl8" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        <li><a href="https://www.facebook.com/tinhart1996" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+    </ul>
+    <div class="extra">
+        
+  <p>Để liên hệ làm học viên ở Tình Tattoo Studio, xin hãy liên lạc với chúng tôi qua Facebook để biết thêm thông tin chi tiết.</p>
+           
+     
+    </div>
+</div>
+</div>
+   <!--map-->
+<div class="contact map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.5046037584166!2d106.79943209999999!3d11.0007162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174db9e14f115d3%3A0xf70169dc4dfc3004!2zTGnDqm4g4bqlcCBUw6JuIFRyaeG7gXUgLSBWxKluaCBIaeG7h3AsIFTDom4gQsOsbmgsIFbEqW5oIEPhu611LCDEkOG7k25nIE5haSwgVmlldG5hbQ!5e0!3m2!1sen!2sus!4v1671832478933!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+</div>
+</div>
+</div>
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+<script>
+    const nav = document.querySelector('.nav_links');
+const openNavBtn = document.querySelector('#nav_toggle-open');
+const closeNavBtn = document.querySelector('#nav_toggle-close');
+
+const openNav = () => {
+  nav.style.display = 'flex';
+  openNavBtn.style.display = 'none';
+  closeNavBtn.style.display = 'inline-block';
+}
+
+
+
+
+openNavBtn.addEventListener('click', openNav);
+
+
+const closeNav = () => {
+  nav.style.display = 'none';
+  openNavBtn.style.display = 'inline-block';
+  closeNavBtn.style.display = 'none';
+}
+
+
+
+
+closeNavBtn.addEventListener('click', closeNav);
+
+nav.querySelectorAll('li a').forEach(navLink => {
+  navLink.addEventListener('click', () => closeNav);
+})
+
+
+
+
+	if(document.body.clientWidth < 1340) {
+	  nav.querySelectorAll('li a').forEach(navLink => {
+	    navLink.addEventListener('click', () => closeNav);
+	  })
+	}
+	
+</script>
+</body>
+</html>

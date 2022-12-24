@@ -58,6 +58,7 @@ body {
 h1, h2 {
     line-height: 1.1;
     font-weight: 400;
+    font-family: 'Roboto Slab', serif;
 }
 
 h1 {
@@ -105,7 +106,7 @@ nav {
 }
 
 .window-scroll {
-    background: linear-gradient(var(--color-bg-4), var(--color-bg-2)) ;;
+    background: linear-gradient(var(--color-bg-4), var(--color-bg-2)) ;
     border-bottom: 0.2rem solid var(--color-bg-3);
     box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.3);
     position: fixed;
@@ -429,6 +430,11 @@ body {
     color: var(--color-white)
 }
 
+.font-change-3 {
+    font-size: 1.3rem;
+}
+
+
 
 /*========================GALLERY============================*/
 
@@ -489,7 +495,16 @@ body {
     filter: saturate(1);
 }
 
+.font-change-2 {
+    font-size: 1.5rem;
+}
+
 /*===================EXHIBITION=================*/
+
+.font-change {
+    font-size: 2rem;
+}
+
 
 #exhibitions {
     margin-top: 10rem;
@@ -594,6 +609,7 @@ footer a {
     justify-content: center;
     gap: 2rem;
     margin: 0 auto 3rem;
+    font-weight: 800;
 }
 
 .footer_socials {
