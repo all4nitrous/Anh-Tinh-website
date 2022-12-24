@@ -56,14 +56,14 @@ background-image: url('./washi.png');
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 .contactus .title h2 {
     color: var(--color-white);
 font-weight: 500;
 font-family: 'Roboto Slab', serif;
-margin-top: 3rem;
+margin-top: 6rem;
 margin-bottom: -1rem;
 }
 
