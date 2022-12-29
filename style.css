@@ -653,7 +653,7 @@ footer a:hover {
 }
 
 /*==================Minimize screen fix part 2========================*/
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1260px) {
     .header_image-lg {
         filter: saturate(1) brightness(1);
         border: 1rem solid var(--color-bg-2);
